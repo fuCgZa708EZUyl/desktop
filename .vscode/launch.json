@@ -1,0 +1,14 @@
+{
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Spring Boot-DesktopApplication<desktop>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "mainClass": "com.xiyueci.desktop.DesktopApplication",
+      "projectName": "desktop",
+      "args": "",
+      "envFile": "${workspaceFolder}/.env"
+    }
+  ]
+}
