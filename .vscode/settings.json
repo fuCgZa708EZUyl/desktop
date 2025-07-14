@@ -2,5 +2,6 @@
   "java.compile.nullAnalysis.mode": "automatic",
   "cSpell.words": [
     "xiyueci"
-  ]
+  ],
+  "java.configuration.updateBuildConfiguration": "interactive"
 }

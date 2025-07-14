@@ -1,0 +1,53 @@
+# 忽略版本控制文件
+.git
+.gitignore
+
+# 忽略IDE和编辑器文件
+.vscode
+.idea
+*.swp
+*.swo
+*~
+
+# 忽略操作系统文件
+.DS_Store
+Thumbs.db
+
+# 忽略日志文件
+*.log
+logs/
+
+# 忽略临时文件
+tmp/
+temp/
+
+# 前端相关忽略文件
+frontend/node_modules
+frontend/dist
+frontend/.env
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+
+# 后端相关忽略文件
+backend/target
+backend/.mvn/wrapper/maven-wrapper.jar
+backend/mvnw
+backend/mvnw.cmd
+
+# Docker相关文件
+Dockerfile
+.dockerignore
+docker-compose.yml
+docker-compose.yaml
+
+# 文档文件
+README.md
+*.md
+
+# 测试覆盖率报告
+coverage/
+
+# 其他
+.env
